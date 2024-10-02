@@ -51,7 +51,7 @@ const Faq = () => {
   }
   return (
     <div className='px-4 lg:px-16 pt-28' id='faq'>
-      <h2>You have got question, {`we've`} got answers.</h2>
+      <h2>You have got question, we`ve got answers.</h2>
       <p>Find your answers below</p>
       <div className='grid md:grid-cols-2 mt-16 gap-y-4 gap-x-16 '>
         {faqs.map((faq, index) => (
