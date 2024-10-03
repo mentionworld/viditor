@@ -1,9 +1,9 @@
 import React from 'react'
-import Logo from '../Logo'
-import Icon from '../Icon'
+import Logo from '../components/Logo'
+import Icon from '../components/Icon'
 import { FaApple, FaGlobe, FaGooglePay, FaWindows } from 'react-icons/fa'
 import Image from 'next/image'
-import BrandList from '../BrandList'
+import BrandList from '../components/BrandList'
 
 const Download = () => {
   return (

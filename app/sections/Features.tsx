@@ -1,29 +1,9 @@
 import React from 'react';
 import { FaCut, FaRobot, FaVideo } from 'react-icons/fa';
-import { GiBrain, GiFilmStrip } from 'react-icons/gi';
-import { MdVideoLibrary } from 'react-icons/md';
-import { PiRocketLaunchBold } from 'react-icons/pi';
-import { SiGithubactions } from 'react-icons/si';
-import FeatureCard from '../FeatureCard';
-import Feature from '../Feature';
-const featureCards = [
-  {
-    icon: GiBrain,
-    slogan: "Automated Editing",
-    heading: "Seamless and Smart",
-    text: "Our AI-powered editor automatically cuts, trims, and enhances your footage with precision, enabling you to focus on creativity without manual editing hassles.",
-    buttonIcon: SiGithubactions,
-    buttonText: "See in Action"
-  },
-  {
-    icon: MdVideoLibrary,
-    slogan: "Media Library",
-    heading: "Unlimited Resources",
-    text: "Explore our extensive media library, featuring diverse stock footage, high-quality music tracks, and professional effects to enhance your videos effortlessly.",
-    buttonIcon: PiRocketLaunchBold,
-    buttonText: "Explore Now"
-  }
-];
+import { GiFilmStrip } from 'react-icons/gi';
+import FeatureCard from '../components/FeatureCard';
+import Feature from '../components/Feature';
+import { featureCards } from '../data';
 
 const features = [
   { icon: FaRobot, name: "AI Smart Tools" },

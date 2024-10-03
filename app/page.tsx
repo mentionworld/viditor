@@ -1,11 +1,11 @@
-import Download from "./components/sections/Download";
-import Faq from "./components/sections/Faq";
-import Features from "./components/sections/Features";
-import Footer from "./components/sections/Footer";
-import Hero from "./components/sections/Hero";
-import Navbar from "./components/sections/Navbar";
-import Pricing from "./components/sections/Pricing";
-import Reviews from "./components/sections/Reviews";
+import Download from "./sections/Download";
+import Faq from "./sections/Faq";
+import Features from "./sections/Features";
+import Footer from "./sections/Footer";
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
+import Pricing from "./sections/Pricing";
+import Reviews from "./sections/Reviews";
 
 export default function Home() {
   return (

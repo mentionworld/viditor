@@ -5,7 +5,7 @@ import { IconType } from 'react-icons'
 import { GiNestedHexagons } from 'react-icons/gi'
 
 interface IconProps{
-    icon: IconType
+    icon?: IconType
     size?: "sm"| "lg"
     link?: string
     imgSrc?: string

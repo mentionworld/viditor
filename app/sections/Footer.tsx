@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { IconType } from 'react-icons'
 import { FaDiscord, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
-import Subscribe from '../Subsribe'
+import Subscribe from '../components/Subsribe'
 
 interface SocialProps {
   icon: IconType
